@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Row Menu with Dividers</title>
+  <style>
+    .menu {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background: #f4f4f4;
+      border: 1px solid #ccc;
+    }
+
+    .menu li {
+      padding: 10px 20px;
+      cursor: pointer;
+      position: relative;
+    }
+
+    /* Add divider line except for the last item */
+    .menu li:not(:last-child) {
+      border-right: 1px solid #ccc;
+    }
+
+    .menu li:hover {
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <ul class="menu">
+    <li>Home</li>
+    <li>About</li>
+    <li>Services</li>
+    <li>Contact</li>
+  </ul>
+</body>
+</html>
