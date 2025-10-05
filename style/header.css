@@ -65,11 +65,11 @@ body .cabecalho .menu {
     padding-bottom: 5px;
 }
 
-body .cabecalho .menu:hover {
+body .cabecalho .menu ul li:hover {
     padding-bottom: 0px;
 }
 
-body .cabecalho .menu ul{
+body .cabecalho .menu ul li{
     color: #FFFFFF;
     font-size: small;
     text-decoration: none;
@@ -81,7 +81,7 @@ body .cabecalho .menu ul{
     cursor: pointer;
 }
 
-body .cabecalho .menu ul:not(:last-child) {
+body .cabecalho .menu ul li:not(:last-child) {
     border-right: 1px solid #FFFFFF;
 }
 
