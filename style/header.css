@@ -65,10 +65,6 @@ body .cabecalho .menu {
     padding-bottom: 5px;
 }
 
-body .cabecalho .menu ul li a:hover {
-    padding-bottom: 0px;
-}
-
 body .cabecalho .menu ul {
     display: flex;
     list-style: none;
@@ -94,27 +90,7 @@ body .cabecalho .menu ul li a.pi {
     color: #1BB4E8;
 }
 
-body .cabecalho .menu ul li a.pi:hover {
-    color: #1BB4E8;
-    font-size: medium;
-}
-
-body .cabecalho .menu ul li a.ai:hover {
-    color: #1BB4E8;
-    font-size: medium;
-}
-
-body .cabecalho .menu ul li a.ds:hover {
-    color: #1BB4E8;
-    font-size: medium;
-}
-
-body .cabecalho .menu ul li a.tp:hover {
-    color: #1BB4E8;
-    font-size: medium;
-}
-
-body .cabecalho .menu ul li a.co:hover {
+body .cabecalho .menu ul li a:hover {
     color: #1BB4E8;
     font-size: medium;
 }
