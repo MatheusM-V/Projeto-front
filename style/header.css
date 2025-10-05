@@ -69,7 +69,7 @@ body .cabecalho .menu:hover {
     padding-bottom: 0px;
 }
 
-body .cabecalho .menu a{
+body .cabecalho .menu ul{
     color: #FFFFFF;
     font-size: small;
     text-decoration: none;
@@ -81,25 +81,25 @@ body .cabecalho .menu a{
     cursor: pointer;
 }
 
-body .cabecalho .menu a:not(:last-child) {
+body .cabecalho .menu ul:not(:last-child) {
     border-right: 1px solid #FFFFFF;
 }
 
-body .cabecalho .menu a.pi {
+body .cabecalho .menu ul li a.pi {
     color: #1BB4E8;
 }
 
-body .cabecalho .menu a.pi:hover {
-    color: #1BB4E8;
-    font-size: medium;
-}
-
-body .cabecalho .menu a.ai:hover {
+body .cabecalho .menu ul li a.pi:hover {
     color: #1BB4E8;
     font-size: medium;
 }
 
-body .cabecalho .menu a.ds:hover {
+body .cabecalho .menu ul li a.ai:hover {
+    color: #1BB4E8;
+    font-size: medium;
+}
+
+body .cabecalho .menu ul li a.ds:hover {
     color: #1BB4E8;
     font-size: medium;
 }
