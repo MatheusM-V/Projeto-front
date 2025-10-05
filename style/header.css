@@ -62,7 +62,6 @@ body .cabecalho .menu {
     margin-left: auto;
     align-self: flex-end;
     white-space: nowrap;
-    padding-bottom: 10px;
 }
 
 body .cabecalho .menu ul {
@@ -72,6 +71,7 @@ body .cabecalho .menu ul {
     padding: 0;
     margin: 0;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 
