@@ -15,7 +15,7 @@ body .informacoes .quadro1 .quadro1h {
     margin-top: 10px;
     height: 45px;
 }
-body .informacoes .quadro1 .quadro1h h2 {
+body .informacoes .quadro1 .quadro1h .quadro1ht {
     color: #FFFFFF;
     font-size: 25px;
     font-style: italic;
@@ -56,7 +56,7 @@ body .informacoes .quadro2 .quadro2h {
     height: 45px;
 }
 
-body .informacoes .quadro2 .quadro2h h2 {
+body .informacoes .quadro2 .quadro2h .quadro2ht {
     color: #FFFFFF;
     font-size: 25px;
     font-style: italic;
