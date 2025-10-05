@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luxo - Aluguel de Iates</title>
     <link rel="stylesheet" href="style/body.css">
-    <link rel="stylesheet" href="style/cabecalho.css">
-    <link rel="stylesheet" href="style/corpo.css">
     <link rel="stylesheet" href="style/quadro.css">
-    <link rel="stylesheet" href="style/bottom.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/principal.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <script src="script/header.js" defer></script>
 </head>
 
 <body>
-    <div class="cabecalho">
-        <div class="logo">
-            <img src="imagens/barco1.png" alt="Logo da Empresa" />
-            <div class="titulo">
-                <h1>Luxo</h1>
-                <h2>Aluguel de iates</h2>
+    <header class="cabecalho">
+            <div class="logo">
+                <img src="imagens/barco1.png" alt="Logo da Empresa" />
+                <div class="titulo">
+                    <h1>Luxo</h1>
+                    <h2>Aluguel de iates</h2>
+                </div>
             </div>
-        </div>
 
-        <div class="menu">
-            <a href="PaginaInicial.html" class="pi">PÁGINA INICIAL</a>
-            <a href="alugueldeiates.html" class="ai">ALUGUEL DE IATES</a>
-            <a href="destinos.html" class="ds">DESTINOS</a>
-            <a href="tripulação.html" class="tp">TRIPULAÇÃO</a>
-            <a href="contato.html" class="co">CONTATO</a>
+            <nav class="menu">
+                <a href="index.html" class="pi">PÁGINA INICIAL</a>
+                <a href="alugueldeiates.html" class="ai">ALUGUEL DE IATES</a>
+                <a href="destinos.html" class="ds">DESTINOS</a>
+                <a href="tripulação.html" class="tp">TRIPULAÇÃO</a>
+                <a href="contato.html" class="co">CONTATO</a>
+            </nav>
         </div>
-    </div>
+    </header>
 
-    <div class="pagina">
+    <main class="pagina">
 
         <div class="corpo">
-            <img src="imagens/barcoprincipal.jpg" alt="Iate no meio do mar" />
-
+            <img src="imagens/barcoprincipal.jpg" alt="Imagem de um iate de luxo no mar" />
+            
             <div class="texto">
                 <h1>Você só encontra coisas boas, <br />se combinar luxo e paixão.</h1>
                 <div class="texto2">
                     <img src="imagens/barco2.png" alt="logo barquinho" />
-                    <p>Ligue agora para agendar as férias de <br /> sua vida: <p2>(00) 8000-0000</p2>
+                    <p>Ligue agora para agendar as férias de <br /> sua vida: <span>(00) 8000-0000</span>
                     </p>
                 </div>
             </div>
         </div>
 
-        <div class="informacoes">
+        <section class="informacoes">
             <div class="quadro1">
                 <div class="quadro1h">
                     <img src="imagens/destino.png" alt="destino" class="img1" />
@@ -78,14 +79,14 @@
                     <img src="imagens/barconossafrota1.jpg" alt="Iate 4" class="imagem4" />
                 </div>
             </div>
-            <div class="bottom">
-                <div class="bottom-inner">
-                    <p>© 2023 por Luxo aluguel de iates. Orgulhosamente criado por wix.com</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="script/script.js"></script>
-</body>
+        </section>
 
+    </main>
+
+    <footer class="bottom">
+        <div class="bottom-inner">
+            <p>© 2023 por Luxo aluguel de iates. Orgulhosamente criado por wix.com</p>
+        </div>
+    </footer>
+</body>
 </html>

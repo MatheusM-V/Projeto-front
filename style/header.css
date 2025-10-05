@@ -1,0 +1,115 @@
+body .cabecalho {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    background-color: #21272B;
+    height: 85px;
+    transition: transform 250ms ease-in-out;
+    transform: translateX(-50%) translateY(0);
+    z-index: 3;
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body .cabecalho.hide {
+  transform: translateX(-50%) translateY(-100%);
+}
+
+body .cabecalho .logo{
+    display: flex;
+}
+
+body .cabecalho .logo img {
+    height: 55px;
+    width: auto;
+    align-self: center;
+    margin-top: 2px;
+    margin-left: 2px;
+    padding-right: 8px;
+}
+
+body .cabecalho .logo .titulo {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    align-items: flex-start;
+    border: 5px;
+}
+
+body .cabecalho .logo .titulo h1 {
+    color: #1BB4E8;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+body .cabecalho .logo .titulo h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 0px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+body .cabecalho .menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-self: flex-end;
+    white-space: nowrap;
+    padding-bottom: 5px;
+}
+
+body .cabecalho .menu:hover {
+    padding-bottom: 0px;
+}
+
+body .cabecalho .menu a{
+    color: #FFFFFF;
+    font-size: small;
+    text-decoration: none;
+    flex: 1;
+    padding: 3px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+body .cabecalho .menu a:not(:last-child) {
+    border-right: 1px solid #FFFFFF;
+}
+
+body .cabecalho .menu a.pi {
+    color: #1BB4E8;
+}
+
+body .cabecalho .menu a.pi:hover {
+    color: #1BB4E8;
+    font-size: medium;
+}
+
+body .cabecalho .menu a.ai:hover {
+    color: #1BB4E8;
+    font-size: medium;
+}
+
+body .cabecalho .menu a.ds:hover {
+    color: #1BB4E8;
+    font-size: medium;
+}
+
+body .cabecalho .menu a.tp:hover {
+    color: #1BB4E8;
+    font-size: medium;
+}
+
+body .cabecalho .menu a.co:hover {
+    color: #1BB4E8;
+    font-size: medium;
+}
