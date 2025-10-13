@@ -2,6 +2,8 @@ body .informacoes {
     display: flex;
     flex-direction: row;
     background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 body .informacoes .quadro1 {
@@ -14,6 +16,7 @@ body .informacoes .quadro1 .quadro1h {
     background-color: #1BB4E8;
     margin-top: 10px;
     height: 45px;
+    padding: 5px;
 }
 body .informacoes .quadro1 .quadro1h .quadro1ht {
     color: #FFFFFF;
@@ -35,6 +38,7 @@ body .informacoes .quadro1 p {
     font-size: 15px;
     font-style: italic;
     font-weight: lighter;
+    padding-bottom: 20px;
 
 }
 
@@ -54,6 +58,7 @@ body .informacoes .quadro2 .quadro2h {
     background-color: #C6B07F;
     margin-top: 10px;
     height: 45px;
+    padding: 5px;
 }
 
 body .informacoes .quadro2 .quadro2h .quadro2ht {
@@ -76,7 +81,7 @@ body .informacoes .quadro2 p {
     font-size: 15px;
     font-style: italic;
     font-weight: lighter;
-
+    padding-bottom: 20px;
 }
 
 body .informacoes .imgrow1 {
