@@ -31,6 +31,7 @@ body .informacoes .quadro1 h3 {
     font-size: 20px;
     font-style: italic;
     font-weight: lighter;
+    padding-top: 5px;
 }
 
 body .informacoes .quadro1 p {
@@ -74,6 +75,7 @@ body .informacoes .quadro2 h3 {
     font-size: 20px;
     font-style: italic;
     font-weight: lighter;
+    padding-top: 5px;
 }
 
 body .informacoes .quadro2 p {

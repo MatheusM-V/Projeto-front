@@ -18,6 +18,8 @@ body .corpo .texto {
     text-align: left;
     z-index: 1;
     width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 body .corpo .texto2 {
