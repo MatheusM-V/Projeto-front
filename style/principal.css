@@ -13,14 +13,14 @@ body .corpo .texto {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 45%;
+    top: 40%;
     right: 30px;
     text-align: left;
     z-index: 1;
     width: 500px;
     height: 250px;
-    padding-top: 10px;
-    padding-bottom: -10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 body .corpo .texto2 {
