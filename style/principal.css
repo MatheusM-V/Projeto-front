@@ -13,14 +13,14 @@ body .corpo .texto {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 40%;
+    top: 45%;
     right: 30px;
     text-align: left;
     z-index: 1;
     width: 500px;
     height: 250px;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 7px;
 }
 
 body .corpo .texto2 {
@@ -30,20 +30,21 @@ body .corpo .texto2 {
 
 body .corpo .texto h1 {
     color: #FFFFFF;
-    font-size: 230%;
+    font-size: 35px;
     font-style: italic;
     font-weight: lighter;
     padding-left: 20px;
+    padding-right: 15px;
     padding-bottom: 5px;
     margin-right: 30px;
     margin-bottom: 1px;
 }
 
 body .corpo .texto2 img {
-    height: 50px;
+    height: 45px;
     width: auto;
-    padding-left: 25px;
-    padding-top: 20px;
+    padding-left: 20px;
+    padding-top: 25px;
     padding-right: 15px;
 }
 
@@ -51,11 +52,12 @@ body .corpo .texto2 p{
     color: #FFFFFF;
     font-style: italic;
     font-weight: lighter;
-    font-size: 150%;
+    font-size: 24px;
     margin-right: 40px;
+    padding-right: 15px;
 }
 
 body .corpo .texto2 p span {
     color: #C6B07F;
-    font-size: 80%;
+    font-size: 24px;
 }
